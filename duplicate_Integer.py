@@ -33,4 +33,10 @@ def hasDuplicate(nums: list[int]) -> bool:
         tempset.add(num)
     return False
 
+# def hasDuplicate(nums: list[int]) -> bool:
+#     tempset = set(nums)
+#     if len(tempset) == len(nums):
+#         return False
+#     return True
+
 print(hasDuplicate([1,2,3,4,5,5]))
